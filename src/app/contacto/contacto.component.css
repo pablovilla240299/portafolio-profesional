@@ -1,0 +1,43 @@
+body{
+    background-color: transparent;
+}
+.contact-section {
+  padding: 60px 30px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #f6c945;
+  margin-bottom: 30px;
+}
+
+.contact-card {
+  background-color: rgba(0, 0, 0, 0.6); /* fondo semitransparente sobre el fondo */
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  color: #f3f4f6;
+  font-size: 1.1rem;
+}
+
+.contact-card p {
+  margin: 12px 0;
+  align-items: center;
+}
+.contact-card a{
+  text-decoration: none;
+  color: #f3f4f6  ;
+}
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 20px;
+    font-size: 1rem;
+  }
+}

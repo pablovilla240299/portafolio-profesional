@@ -1,0 +1,131 @@
+/* Tipografía y colores base */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+  display: block;
+  background-color: transparent; /* totalmente transparente */
+}
+
+header {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-size: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* Sección de presentación */
+.presentacion {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: justify;
+  color: #f4f6f8;
+}
+
+.presentacion p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0077cc;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #3b82f6;
+color: white;
+border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+    margin: 0 15px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header h2 {
+    font-size: 1.2rem;
+  }
+
+  .presentacion {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .presentacion p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .btn {
+    width: 90%;
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
+.mi-foto {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+@media (max-width: 768px) {
+  .mi-foto {
+    max-width: 80%;
+  }
+
+  .presentacion {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+.mi-foto {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 400px; /* Aumentamos el límite para escritorio */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .mi-foto {
+    max-width: 80%; /* Se adapta mejor al ancho del celular */
+  }
+}
+
+
